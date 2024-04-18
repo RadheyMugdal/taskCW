@@ -64,7 +64,7 @@ const Page = () => {
           </button>
           <span className="text-center m-2 font-thin">or</span>
           <p className="text-center">
-            Don't have an account?{" "}
+            Dont have an account?{" "}
             <span className="text-blue-500 cursor-pointer">
               <Link href="sign-up">Signup here</Link>
             </span>{" "}

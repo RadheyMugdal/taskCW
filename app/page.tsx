@@ -4,8 +4,6 @@ import Image from 'next/image';
 import useSWR from 'swr'
 
 
-
-
 export default function Home() {
   const fetcher = (url:any) => fetch(url).then(r => r.json())
   const { data, error } = useSWR('/api/users', fetcher);

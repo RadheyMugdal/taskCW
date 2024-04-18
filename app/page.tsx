@@ -12,12 +12,12 @@ export default function Home() {
   return (
 
     <main className="w-screen h-screen bg-zinc-800">
-      <div className=" absolute bottom-0 right-0 " > 
+      {/* <div className=" absolute bottom-0 right-0 " > 
         <button className=' flex  items-center justify-center p-3' onClick={()=>signOut()}>
 
           <Image src="/logout.png" width={40} height={40}  alt="logout" className="  invert m-3" />
         </button>
-      </div>
+      </div> */}
       <h1 className="text-center font-extrabold text-3xl  ">All Active users at our platform</h1>
       <div className=' w-full h-fit grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 mt-5'>
         {data.map((user:any) => (
